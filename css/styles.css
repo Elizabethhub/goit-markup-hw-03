@@ -101,16 +101,19 @@ h2-h3 #212121
 
 .hero {
     background: #2F303A;
+    text-align: center;
+    height: 600px;
 }
 
-h1, .button {color: white;}
-h1 {
+.hero-title, .button {color: white;}
+
+.hero-title {
 margin-top: 0;
-margin-bottom: 0;
+margin-bottom: 30px;
 font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
-text-align: center;
+
 letter-spacing: 0.06em;
 text-transform: uppercase;
 background-color: salmon;
@@ -161,9 +164,6 @@ background-color: salmon;
     line-height: 1.87;
     color: #757575;
 }
-.features-title, h2, h3 {
-    color: var(--title-text-color);
-}
 .features-blocks {
     width: 270px;
     height: 101px;
@@ -173,32 +173,56 @@ background-color: salmon;
     line-height: 1.71;
 }
 .features-title {
+    margin-top: 0;
+    margin-bottom: 10px;
     text-transform: uppercase;
     font-size: 14px;
     line-height: 1.14;
+    color: var(--title-text-color);
+}
+.features-blocks-item {
+    margin-top: 0;
+    margin-bottom: 94px;
 }
 .section-team {
     background: #F5F4FA;
 }
 .section-title {
+    margin-top: 0;
+    margin-bottom: 50px;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
+    color: var(--title-text-color);
+}
+.work-examples {
+    margin-top: 0;
+    margin-bottom: 94px;
+}
+.team {
+    margin-top: 94px;
+    margin-bottom: 50px;
 }
 .name-title {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.2;
 }
+.team-list {
+    margin-bottom: 94px;
+}
 .position {
     font-size: 16px;
     line-height: 1.2;
 }
 .footer {
-    background-color: #2F303A;
+    height: 252px;
 }
 .adress {
 font-size: 14px;
 line-height: 1.71;
 font-style: normal;
+}
+.footer-section {
+background-color: #2F303A;
 }
