@@ -19,8 +19,10 @@ html {
     margin: 0;
 }
 
-ul {
+.list {
     list-style: none;
+    padding: 0;
+    margin: 0;
 }
 /* цвет осн текста #212121, #757575
 фокус #2196F3
@@ -33,8 +35,8 @@ h2-h3 #212121
     letter-spacing: 0.02em;
 }
 .container {
-    width: 1170;
-    padding: 15 15;
+    width: 1170px;
+    padding: 15px 15px;
     margin-left: auto;
     margin-right: auto;
     outline: 2px solid salmon;
@@ -103,12 +105,15 @@ h2-h3 #212121
 
 h1, .button {color: white;}
 h1 {
+margin-top: 0;
+margin-bottom: 0;
 font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
 text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
+background-color: salmon;
 }
 .button {
     font-family: inherit;
@@ -120,6 +125,8 @@ text-transform: uppercase;
     line-height: 1.87;
     letter-spacing: 0.06em;
     cursor: pointer;
+    padding: 10px 32px;
+    min-width: 200px;
 }
 .button.portfolio {
     background: #F5F4FA;
@@ -129,6 +136,9 @@ text-transform: uppercase;
     text-align: center;
     color: #212121;
     letter-spacing: 0.03em;
+    min-width: 73px;
+    padding: 6px 22px;
+
 }
 .button-hover :hover,
 .button-hover :focus {
