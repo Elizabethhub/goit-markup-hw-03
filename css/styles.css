@@ -104,6 +104,7 @@ h2-h3 #212121
     text-align: center;
     height: 600px;
     padding: 200px 452px 280px 452px;
+    margin: 0 auto;
 }
 
 .hero-title, .button {color: white;}
