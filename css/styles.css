@@ -39,7 +39,7 @@ h2-h3 #212121
     padding: 15px 15px;
     margin-left: auto;
     margin-right: auto;
-    outline: 2px solid salmon;
+    /* outline: 2px solid salmon; */
 }
 .logo {
     color: #000;
@@ -103,6 +103,7 @@ h2-h3 #212121
     background: #2F303A;
     text-align: center;
     height: 600px;
+    padding: 200px 452px 280px 452px;
 }
 
 .hero-title, .button {color: white;}
@@ -110,14 +111,23 @@ h2-h3 #212121
 .hero-title {
 margin-top: 0;
 margin-bottom: 30px;
+margin-right: 0;
+margin-left: 0;
 font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
+width: 696px;
+text-align: center;
+display: inline-block;
 
 letter-spacing: 0.06em;
 text-transform: uppercase;
-background-color: salmon;
+/* background-color: salmon; */
 }
+/* .hero-title-container {
+width: 696px;
+text-align: center;
+} */
 .button {
     font-family: inherit;
     background-color: var(--accent-text-color);
@@ -180,10 +190,10 @@ background-color: salmon;
     line-height: 1.14;
     color: var(--title-text-color);
 }
-.features-blocks-item {
-    margin-top: 0;
-    margin-bottom: 94px;
-}
+.feature-list {
+    margin-top: 0; 
+    margin-bottom: 94px; 
+} 
 .section-team {
     background: #F5F4FA;
 }
@@ -195,9 +205,12 @@ background-color: salmon;
     text-align: center;
     color: var(--title-text-color);
 }
-.work-examples {
+.features-examples {
+    padding: 94px 0 94px 0;
+}
+/* .work-examples {
     margin-top: 0;
-    margin-bottom: 94px;
+    margin-bottom: 94px; */
 }
 .team {
     margin-top: 94px;
