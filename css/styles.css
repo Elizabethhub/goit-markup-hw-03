@@ -26,17 +26,21 @@ html {
   padding: 0;
   margin: 0;
 }
-
-.page-header {
-  letter-spacing: 0.02em;
+.section {
+  padding: 94px 0;
 }
 .container {
-  width: 1170px;
+  width: 1200px;
   padding: 15px 15px;
   margin-left: auto;
   margin-right: auto;
-  /* outline: 2px solid salmon; */
+  outline: 2px solid salmon;
 }
+/* =================== HEADER =================== */
+.page-header {
+  letter-spacing: 0.02em;
+}
+
 .logo {
   color: #000;
   font-family: "Raleway", sans-serif;
@@ -99,7 +103,7 @@ html {
 .contacts-section-link-tel {
   text-decoration: none;
 }
-
+/* =================== HERO =================== */
 .hero {
   background: #2f303a;
   text-align: center;
@@ -110,12 +114,8 @@ html {
   align-items: center;
 }
 
-.hero-title,
-.button {
-  color: white;
-}
-
 .hero-title {
+  color: white;
   margin-top: 0;
   margin-bottom: 30px;
   margin-right: 0;
@@ -135,6 +135,7 @@ html {
   text-align: center;
 }
 .button {
+  color: white;
   font-family: inherit;
   background-color: var(--accent-text-color);
   border-color: var(--accent-text-color);
@@ -164,6 +165,7 @@ html {
   border-color: var(--accent-text-color);
   background-color: var(--accent-text-color);
 }
+
 .portfolio-cards a {
   text-decoration: none;
 }
@@ -179,6 +181,7 @@ html {
   line-height: 1.87;
   color: #757575;
 }
+
 .features-blocks {
   width: 270px;
   height: 101px;
@@ -207,18 +210,16 @@ html {
   text-align: center;
   color: var(--title-text-color);
 }
-.section {
-  padding: 94px 0;
-}
 
+.examples {
+  margin-bottom: 94px;
+}
 .name-title {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
 }
-/* .team-list {
-    margin-bottom: 94px;
-} */
+
 .position {
   font-size: 16px;
   line-height: 1.2;
@@ -229,6 +230,6 @@ html {
   line-height: 1.71;
   font-style: normal;
 }
-.footer-section {
+.footer {
   background-color: #2f303a;
 }
