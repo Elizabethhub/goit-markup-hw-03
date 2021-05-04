@@ -39,6 +39,7 @@ html {
 /* =================== HEADER =================== */
 .page-header {
   letter-spacing: 0.02em;
+  border-bottom: 1px solid #ececec;
 }
 
 .logo {
@@ -217,6 +218,7 @@ html {
   width: 370px;
   margin-right: 30px;
   margin-bottom: 30px;
+  border-bottom: 1px solid #eeeeee;
 }
 .card:nth-child(3n) {
   margin-right: 0;
